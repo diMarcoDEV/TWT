@@ -2691,7 +2691,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
 
 
-        const char* pszTimestamp = "BitBlocks - Fast Transactions without fee";
+        const char* pszTimestamp = "TWTCoin - Time Will Tell";
         CTransaction txNew;
         txNew.nTime = 1515168297;
         txNew.vin.resize(1);
