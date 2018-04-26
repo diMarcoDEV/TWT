@@ -889,17 +889,17 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>korkein</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>korkea</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>keskikorkea</translation>
     </message>
     <message>
@@ -947,7 +947,7 @@ Voi vaihdella välillä +/- 1 Tavu per syöte.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2623,8 +2623,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>Syötä komento kohteeseen -server tai Bitblocksd</translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>Syötä komento kohteeseen -server tai twtcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2648,7 +2648,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
+        <source>Specify pid file (default: twtcoind.pid)</source>
         <translation>Määritä prosessitiedosto (oletus: bitblocks.pid)</translation>
     </message>
     <message>
@@ -2788,12 +2788,12 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Aseta maksimikoko korkean prioriteetin/pienen siirtokulun maksutapahtumille tavuina (oletus: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Varoitus: -paytxfee on asetettu erittäin korkeaksi! Tämä on maksukulu jonka tulet maksamaan kun lähetät siirron.</translation>
     </message>
     <message>

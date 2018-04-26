@@ -890,17 +890,17 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>najvyššie</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>vysoké</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>stredne vysoké</translation>
     </message>
     <message>
@@ -948,7 +948,7 @@ Môže sa líšiť +/- 1 bajt za vstup.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2624,8 +2624,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>Pošli príkaz na -server alebo Bitblocksd</translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>Pošli príkaz na -server alebo twtcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2649,8 +2649,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: Bitblocksd.pid)</translation>
+        <source>Specify pid file (default: twtcoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: twtcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2789,12 +2789,12 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Nastavte maximálnu veľkosť BBK-priority/low-fee transakcií v bajtoch (predvolené: 27000)</translation>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
+        <translation>Nastavte maximálnu veľkosť high-priority/low-fee transakcií v bajtoch (predvolené: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Upozornenie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
     </message>
     <message>

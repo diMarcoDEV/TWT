@@ -892,17 +892,17 @@ Adress: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>högst</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>hög</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>medium-hög</translation>
     </message>
     <message>
@@ -950,7 +950,7 @@ Adress: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2626,8 +2626,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>Skicka kommando till -server eller Bitblocksd</translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>Skicka kommando till -server eller twtcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2651,8 +2651,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
-        <translation>Ange pid filen (standard Bitblocksd.pid)</translation>
+        <source>Specify pid file (default: twtcoind.pid)</source>
+        <translation>Ange pid filen (standard twtcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2791,12 +2791,12 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Ställ in max storlek för hög prioritet/lågavgifts transaktioner i bytes (förval: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Varning: -paytxfee är satt väldigt hög! Detta är avgiften du kommer betala för varje transaktion.</translation>
     </message>
     <message>

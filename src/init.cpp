@@ -148,10 +148,10 @@ bool AppInit(int argc, char* argv[])
             // First part of help message is specific to bitcoind / RPC client
             std::string strUsage = _("bitblocks version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  Bitblocksd [options]                     " + "\n" +
-                  "  Bitblocksd [options] <command> [params]  " + _("Send command to -server or Bitblocksd") + "\n" +
-                  "  Bitblocksd [options] help                " + _("List commands") + "\n" +
-                  "  Bitblocksd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  twtcoind [options]                     " + "\n" +
+                  "  twtcoind [options] <command> [params]  " + _("Send command to -server or twtcoind") + "\n" +
+                  "  twtcoind [options] help                " + _("List commands") + "\n" +
+                  "  twtcoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -230,7 +230,7 @@ std::string HelpMessage()
     string strUsage = _("Options:") + "\n" +
         "  -?                     " + _("This help message") + "\n" +
         "  -conf=<file>           " + _("Specify configuration file (default: bitblocks.conf)") + "\n" +
-        "  -pid=<file>            " + _("Specify pid file (default: Bitblocksd.pid)") + "\n" +
+        "  -pid=<file>            " + _("Specify pid file (default: twtcoind.pid)") + "\n" +
         "  -datadir=<dir>         " + _("Specify data directory") + "\n" +
         "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n" +
         "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 25)") + "\n" +
@@ -304,7 +304,7 @@ std::string HelpMessage()
         "\n" + _("Block creation options:") + "\n" +
         "  -blockminsize=<n>      "   + _("Set minimum block size in bytes (default: 0)") + "\n" +
         "  -blockmaxsize=<n>      "   + _("Set maximum block size in bytes (default: 250000)") + "\n" +
-        "  -blockprioritysize=<n> "   + _("Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)") + "\n" +
+        "  -blockprioritysize=<n> "   + _("Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)") + "\n" +
 
         "\n" + _("SSL options: (see the Bitcoin Wiki for SSL setup instructions)") + "\n" +
         "  -rpcssl                                  " + _("Use OpenSSL (https) for JSON-RPC connections") + "\n" +
@@ -478,7 +478,7 @@ bool AppInit2()
         if (!ParseMoney(mapArgs["-paytxfee"], nTransactionFee))
             return InitError(strprintf(_("Invalid amount for -paytxfee=<amount>: '%s'"), mapArgs["-paytxfee"].c_str()));
         if (nTransactionFee > 0.25 * COIN)
-            InitWarning(_("Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction."));
+            InitWarning(_("Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction."));
     }
 
     fConfChange = GetBoolArg("-confchange", false);

@@ -261,7 +261,7 @@ public:
         OverviewPage->setWindowTitle(QApplication::translate("OverviewPage", "Form", Q_NULLPTR));
         label_5->setText(QApplication::translate("OverviewPage", "Wallet", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelWalletStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the Bitblocks network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
+        labelWalletStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the TWTCoin network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         label->setText(QApplication::translate("OverviewPage", "Spendable:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
@@ -285,7 +285,7 @@ public:
 #endif // QT_NO_TOOLTIP
         label_4->setText(QApplication::translate("OverviewPage", "<b>Recent transactions</b>", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelTransactionsStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the Bitblocks network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
+        labelTransactionsStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the TWTCoin network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
     } // retranslateUi
 

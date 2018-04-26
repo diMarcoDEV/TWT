@@ -1,6 +1,6 @@
 Name NovaCoin
 
-RequestExecutionLevel BBKTest
+RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
 # General Symbol Definitions

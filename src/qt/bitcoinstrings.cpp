@@ -32,14 +32,14 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "permissions."),
 QT_TRANSLATE_NOOP("bitcoin-core", "bitblocks version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Usage:"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Send command to -server or Bitblocksd"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Send command to -server or twtcoind"),
 QT_TRANSLATE_NOOP("bitcoin-core", "List commands"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Get help for a command"),
 QT_TRANSLATE_NOOP("bitcoin-core", "bitblocks"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "This help message"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: bitblocks.conf)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Specify pid file (default: Bitblocksd.pid)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Specify pid file (default: twtcoind.pid)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify data directory"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify wallet file (within data directory)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Set database cache size in megabytes (default: 25)"),
@@ -118,7 +118,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Block creation options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Set minimum block size in bytes (default: 0)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Set maximum block size in bytes (default: 250000)"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Set maximum size of BBK-priority/low-fee transactions in bytes (default: "
+"Set maximum size of high-priority/low-fee transactions in bytes (default: "
 "27000)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Use OpenSSL (https) for JSON-RPC connections"),
@@ -129,7 +129,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "@STRENGTH)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Warning: -paytxfee is set very BBK! This is the transaction fee you will "
+"Warning: -paytxfee is set very high! This is the transaction fee you will "
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount for -mininput=<amount>: '%s'"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Wallet %s resides outside data directory %s."),

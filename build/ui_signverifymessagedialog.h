@@ -306,7 +306,7 @@ public:
 #endif // QT_NO_TOOLTIP
         copySignatureButton_SM->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        signMessageButton_SM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Sign the message to prove you own this Bitblocks address", Q_NULLPTR));
+        signMessageButton_SM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Sign the message to prove you own this TWTCoin address", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         signMessageButton_SM->setText(QApplication::translate("SignVerifyMessageDialog", "&Sign Message", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
@@ -327,7 +327,7 @@ public:
         addressBookButton_VM->setShortcut(QApplication::translate("SignVerifyMessageDialog", "Alt+A", Q_NULLPTR));
 #endif // QT_NO_SHORTCUT
 #ifndef QT_NO_TOOLTIP
-        verifyMessageButton_VM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Verify the message to ensure it was signed with the specified Bitblocks address", Q_NULLPTR));
+        verifyMessageButton_VM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Verify the message to ensure it was signed with the specified TWTCoin address", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         verifyMessageButton_VM->setText(QApplication::translate("SignVerifyMessageDialog", "&Verify Message", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP

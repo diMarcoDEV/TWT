@@ -891,17 +891,17 @@ Adres: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>hoogste</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>hoog</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>gemiddeld hoog</translation>
     </message>
     <message>
@@ -949,7 +949,7 @@ Kan varieren van +/- 1 Byte per invulling</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2625,8 +2625,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>Verstuur commando naar -server of Bitblocksd</translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>Verstuur commando naar -server of twtcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2650,7 +2650,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
+        <source>Specify pid file (default: twtcoind.pid)</source>
         <translation>Selecteer pid bestand (standaard: bitblocks.conf)</translation>
     </message>
     <message>
@@ -2790,12 +2790,12 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Stel maximale grootte van BBK-priority/low-fee transacties in bytes (standaard: 27000)</translation>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
+        <translation>Stel maximale grootte van high-priority/low-fee transacties in bytes (standaard: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld.  Dit zijn de transactiekosten die u betaalt bij het versturen van een transactie.</translation>
     </message>
     <message>

@@ -892,17 +892,17 @@ Dirección: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>lo más alto</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>alto</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>medio-alto</translation>
     </message>
     <message>
@@ -946,7 +946,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2612,7 +2612,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
+        <source>Send command to -server or twtcoind</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2640,7 +2640,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
+        <source>Specify pid file (default: twtcoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2783,12 +2783,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Aviso: ¡-paytxfee tiene un valor muy alto! Esta es la comisión que pagará si envía una transacción.</translation>
     </message>
     <message>

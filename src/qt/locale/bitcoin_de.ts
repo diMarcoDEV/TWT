@@ -888,17 +888,17 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>am höchsten</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>hoch</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>mittel-hoch</translation>
     </message>
     <message>
@@ -942,7 +942,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2608,8 +2608,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>Kommando versenden an -server oder Bitblocksd </translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>Kommando versenden an -server oder twtcoind </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2633,7 +2633,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
+        <source>Specify pid file (default: twtcoind.pid)</source>
         <translation>PID Datei angeben (Standard: bitblocks.pid)</translation>
     </message>
     <message>
@@ -2773,12 +2773,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Warnung: -paytxfee ist auf einen sehr hohen Wert festgelegt! Dies ist die Gebühr die beim Senden einer Transaktion fällig wird.</translation>
     </message>
     <message>

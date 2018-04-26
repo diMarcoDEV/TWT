@@ -891,17 +891,17 @@ Adresse : %4
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>la plus élevée</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>élevée</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>moyennement-élevée</translation>
     </message>
     <message>
@@ -949,7 +949,7 @@ Ceux-ci Peuvent varier de +/- 1 Byte par entrée.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2625,8 +2625,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>Envoyer commande à -server ou Bitblocksd</translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>Envoyer commande à -server ou twtcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2650,8 +2650,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
-        <translation>Spécifier le fichier pid (defaut: Bitblocksd.pid)
+        <source>Specify pid file (default: twtcoind.pid)</source>
+        <translation>Spécifier le fichier pid (defaut: twtcoind.pid)
 </translation>
     </message>
     <message>
@@ -2791,12 +2791,12 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Fixer la taille maximale d&apos;un block en bytes (default: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Attention : -paytxfee est réglée sur un montant très élevé ! Il s&apos;agit des frais de transaction que vous payerez si vous envoyez une transaction.</translation>
     </message>
     <message>

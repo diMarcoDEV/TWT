@@ -538,7 +538,7 @@ bool CTransaction::CheckTransaction() const
         if (txout.nValue < 0)
             return DoS(100, error("CTransaction::CheckTransaction() : txout.nValue negative"));
         if (txout.nValue > MAX_MONEY)
-            return DoS(100, error("CTransaction::CheckTransaction() : txout.nValue too BBK"));
+            return DoS(100, error("CTransaction::CheckTransaction() : txout.nValue too high"));
         nValueOut += txout.nValue;
         if (!MoneyRange(nValueOut))
             return DoS(100, error("CTransaction::CheckTransaction() : txout total out of range"));

@@ -882,17 +882,17 @@ Address: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>El més alt</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>Alt</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>mig-alt</translation>
     </message>
     <message>
@@ -940,7 +940,7 @@ Pot variar + / - 1 Byte per entrada.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2616,8 +2616,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>Enviar comandes a -server o Bitblocksd</translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>Enviar comandes a -server o twtcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2641,8 +2641,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: Bitblocksd.pid)</translation>
+        <source>Specify pid file (default: twtcoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: twtcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2781,12 +2781,12 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Establir la grandària màxima de les transaccions alta-prioritat/baixa-comisió en bytes (per defecte: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Advertència: el -paytxfee és molt elevat! Aquesta és la comissió de transacció que pagaràs quan enviis una transacció.</translation>
     </message>
     <message>

@@ -891,17 +891,17 @@ Address: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>наивысший</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>высокий</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>выше среднего</translation>
     </message>
     <message>
@@ -945,7 +945,7 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2611,8 +2611,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>Отправить команду на -server или Bitblocksd</translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>Отправить команду на -server или twtcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2637,8 +2637,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: Bitblocksd.pid)</translation>
+        <source>Specify pid file (default: twtcoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: twtcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2777,12 +2777,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Максимальный размер высокоприоритетных/низкокомиссионных транзакций в байтах (по умолчанию: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Внимание: установлено очень большое значение -paytxfee. Это комиссия, которую вы заплатите при проведении транзакции.</translation>
     </message>
     <message>

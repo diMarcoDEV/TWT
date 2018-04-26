@@ -24,7 +24,7 @@ USE_UPNP:=1
 LIBS= -dead_strip
 
 ifdef STATIC
-# Build STATIC if you are redistributing the Bitblocksd binary
+# Build STATIC if you are redistributing the twtcoind binary
 LIBS += \
  $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a \
  $(DEPSDIR)/lib/libboost_system-mt.a \
@@ -118,7 +118,7 @@ else
 endif
 endif
 
-all: Bitblocksd
+all: twtcoind
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -156,11 +156,11 @@ obj/scrypt-x86.o: scrypt-x86.S
 obj/scrypt-x86_64.o: scrypt-x86_64.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
 
-Bitblocksd: $(OBJS:obj/%=obj/%)
+twtcoind: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-rm -f Bitblocksd
+	-rm -f twtcoind
 	-rm -f obj/*.o
 	-rm -f obj/zerocoin/*.o
 	-rm -f obj/*.P

@@ -912,17 +912,17 @@ Address: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>最高</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>高い</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>中高</translation>
     </message>
     <message>
@@ -970,7 +970,7 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2654,8 +2654,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
-        <translation>-server か Bitblocksdへコマンドを送る。</translation>
+        <source>Send command to -server or twtcoind</source>
+        <translation>-server か twtcoindへコマンドを送る。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2679,8 +2679,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
-        <translation>pid ファイルを特定する (デフォルト: Bitblocksd.pid)</translation>
+        <source>Specify pid file (default: twtcoind.pid)</source>
+        <translation>pid ファイルを特定する (デフォルト: twtcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2819,12 +2819,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>バイトで、最優先、低料金の処理の最大サイズの設定(デファルト：27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>警告: -paytxfee が非常に高く設定されています! これは処理を送信する場合に支払う取引手数料です。</translation>
     </message>
     <message>

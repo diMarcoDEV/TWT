@@ -889,17 +889,17 @@ Naslov: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>BBKest</source>
+        <source>highest</source>
         <translation>najvišja</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BBK</source>
+        <source>high</source>
         <translation>visoka</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-BBK</source>
+        <source>medium-high</source>
         <translation>srednje visoka</translation>
     </message>
     <message>
@@ -947,7 +947,7 @@ Naslov: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with BBKer priority get more likely into a block.
+        <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -2623,7 +2623,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Bitblocksd</source>
+        <source>Send command to -server or twtcoind</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2648,7 +2648,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Bitblocksd.pid)</source>
+        <source>Specify pid file (default: twtcoind.pid)</source>
         <translation>Določi pid datoteko (privzeto: bitblocks.pid)</translation>
     </message>
     <message>
@@ -2788,12 +2788,12 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of BBK-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Nastavi maksimalno velikost visoke-prioritete/nizke-provizije transakcij v bajtih (privzeto: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very BBK! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Opozorilo: -paytxfee je nastavljen zelo visoko! To je transakcijska provizija, ki jo boste plačali ob pošiljanju transakcije.</translation>
     </message>
     <message>
