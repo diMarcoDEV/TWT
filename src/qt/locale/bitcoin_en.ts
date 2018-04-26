@@ -5,19 +5,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bitblocks</source>
-        <translation>About bitblocks</translation>
+        <source>About TWTCoin</source>
+        <translation>About TWTCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bitblocks&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;bitblocks&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;TWTCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;TWTCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bitblocks developers</source>
+Copyright © 2014 The TWTCoin developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -65,8 +65,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bitblocks addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your bitblocks addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your TWTCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your TWTCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bitblocks address</source>
-        <translation>Sign a message to prove you own a bitblocks address</translation>
+        <source>Sign a message to prove you own a TWTCoin address</source>
+        <translation>Sign a message to prove you own a TWTCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bitblocks address</source>
-        <translation>Verify a message to ensure it was signed with a specified bitblocks address</translation>
+        <source>Verify a message to ensure it was signed with a specified TWTCoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified TWTCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>bitblocks will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>bitblocks will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>TWTCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>TWTCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bitblocks</source>
-        <translation>Show information about bitblocks</translation>
+        <source>Show information about TWTCoin</source>
+        <translation>Show information about TWTCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -430,13 +430,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bitblocks address</source>
-        <translation>Send coins to a bitblocks address</translation>
+        <source>Send coins to a TWTCoin address</source>
+        <translation>Send coins to a TWTCoin address</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bitblocks</source>
-        <translation>Modify configuration options for bitblocks</translation>
+        <source>Modify configuration options for TWTCoin</source>
+        <translation>Modify configuration options for TWTCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -485,8 +485,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bitblocks</source>
-        <translation>&amp;About bitblocks</translation>
+        <source>&amp;About TWTCoin</source>
+        <translation>&amp;About TWTCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -542,15 +542,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bitblocks client</source>
-        <translation>bitblocks client</translation>
+        <source>TWTCoin client</source>
+        <translation>TWTCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bitblocks network</source>
+        <source>%n active connection(s) to TWTCoin network</source>
         <translation>
-            <numerusform>%n active connection to bitblocks network</numerusform>
-            <numerusform>%n active connections to bitblocks network</numerusform>
+            <numerusform>%n active connection to TWTCoin network</numerusform>
+            <numerusform>%n active connections to TWTCoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -677,8 +677,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bitblocks address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid bitblocks address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid TWTCoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid TWTCoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -749,8 +749,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bitblocks can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. bitblocks can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. TWTCoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. TWTCoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1069,8 +1069,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bitblocks address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid bitblocks address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid TWTCoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid TWTCoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1088,8 +1088,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>bitblocks-Qt</source>
-        <translation>bitblocks-Qt</translation>
+        <source>TWTCoin-Qt</source>
+        <translation>TWTCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1161,13 +1161,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bitblocks after logging in to the system.</source>
-        <translation>Automatically start bitblocks after logging in to the system.</translation>
+        <source>Automatically start TWTCoin after logging in to the system.</source>
+        <translation>Automatically start TWTCoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bitblocks on system login</source>
-        <translation>&amp;Start bitblocks on system login</translation>
+        <source>&amp;Start TWTCoin on system login</source>
+        <translation>&amp;Start TWTCoin on system login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1186,8 +1186,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bitblocks client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the bitblocks client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the TWTCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the TWTCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1196,8 +1196,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bitblocks network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the bitblocks network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the TWTCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the TWTCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1271,8 +1271,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bitblocks.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting bitblocks.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TWTCoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting TWTCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1286,8 +1286,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bitblocks addresses in the transaction list or not.</source>
-        <translation>Whether to show bitblocks addresses in the transaction list or not.</translation>
+        <source>Whether to show TWTCoin addresses in the transaction list or not.</source>
+        <translation>Whether to show TWTCoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1333,8 +1333,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bitblocks.</source>
-        <translation>This setting will take effect after restarting bitblocks.</translation>
+        <source>This setting will take effect after restarting TWTCoin.</source>
+        <translation>This setting will take effect after restarting TWTCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1352,8 +1352,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bitblocks network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the bitblocks network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWTCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the TWTCoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1568,8 +1568,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bitblocks-Qt help message to get a list with possible bitblocks command-line options.</source>
-        <translation>Show the bitblocks-Qt help message to get a list with possible bitblocks command-line options.</translation>
+        <source>Show the TWTCoin-Qt help message to get a list with possible TWTCoin command-line options.</source>
+        <translation>Show the TWTCoin-Qt help message to get a list with possible TWTCoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1588,13 +1588,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>bitblocks - Debug window</source>
-        <translation>bitblocks - Debug window</translation>
+        <source>TWTCoin - Debug window</source>
+        <translation>TWTCoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bitblocks Core</source>
-        <translation>bitblocks Core</translation>
+        <source>TWTCoin Core</source>
+        <translation>TWTCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1603,8 +1603,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bitblocks debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the bitblocks debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the TWTCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the TWTCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1613,8 +1613,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bitblocks RPC console.</source>
-        <translation>Welcome to the bitblocks RPC console.</translation>
+        <source>Welcome to the TWTCoin RPC console.</source>
+        <translation>Welcome to the TWTCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1772,8 +1772,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1872,7 +1872,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bitblocks address</source>
+        <source>WARNING: Invalid TWTCoin address</source>
         <translation></translation>
     </message>
     <message>
@@ -1946,8 +1946,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2007,8 +2007,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bitblocks address</source>
-        <translation>Sign the message to prove you own this bitblocks address</translation>
+        <source>Sign the message to prove you own this TWTCoin address</source>
+        <translation>Sign the message to prove you own this TWTCoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2039,8 +2039,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bitblocks address</source>
-        <translation>Verify the message to ensure it was signed with the specified bitblocks address</translation>
+        <source>Verify the message to ensure it was signed with the specified TWTCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified TWTCoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2050,8 +2050,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2060,8 +2060,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bitblocks signature</source>
-        <translation>Enter bitblocks signature</translation>
+        <source>Enter TWTCoin signature</source>
+        <translation>Enter TWTCoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2643,8 +2643,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bitblocks version</source>
-        <translation>bitblocks version</translation>
+        <source>TWTCoin version</source>
+        <translation>TWTCoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2673,8 +2673,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bitblocks.conf)</source>
-        <translation>Specify configuration file (default: bitblocks.conf)</translation>
+        <source>Specify configuration file (default: TWTCoin.conf)</source>
+        <translation>Specify configuration file (default: TWTCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2828,8 +2828,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bitblocks will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bitblocks will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TWTCoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TWTCoin will not work properly.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3017,13 +3017,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitblocksrpc
+rpcuser=TWTCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;TWTCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3149,13 +3149,13 @@ for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bitblocks is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  bitblocks is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s.  TWTCoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s.  TWTCoin is probably already running.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3189,13 +3189,13 @@ for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bitblocks</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of bitblocks</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TWTCoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of TWTCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bitblocks to complete</source>
-        <translation>Wallet needed to be rewritten: restart bitblocks to complete</translation>
+        <source>Wallet needed to be rewritten: restart TWTCoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart TWTCoin to complete</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3264,8 +3264,8 @@ for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bitblocks is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. bitblocks is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. TWTCoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. TWTCoin is probably already running.</translation>
     </message>
     <message>
         <location line="-97"/>

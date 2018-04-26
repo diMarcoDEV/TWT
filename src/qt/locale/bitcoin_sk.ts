@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bitblocks</source>
-        <translation>O bitblockse</translation>
+        <source>About TWTCoin</source>
+        <translation>O TWTCoine</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bitblocks&lt;/b&gt; version</source>
-        <translation>verzia &lt;b&gt;bitblocksu&lt;/b&gt;</translation>
+        <source>&lt;b&gt;TWTCoin&lt;/b&gt; version</source>
+        <translation>verzia &lt;b&gt;TWTCoinu&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bitblocks developers</source>
+Copyright © 2014 The TWTCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bitblocks developers</translation>
+Copyright © 2014 The TWTCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bitblocks addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše bitblocks adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your TWTCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše TWTCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bitblocks address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto bitblocks adresu</translation>
+        <source>Sign a message to prove you own a TWTCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto TWTCoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bitblocks address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou bitblocks adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified TWTCoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou TWTCoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>bitblocks will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>bitblocks sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>TWTCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>TWTCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bitblocks</source>
-        <translation>Zobraziť informácie o bitblocks</translation>
+        <source>Show information about TWTCoin</source>
+        <translation>Zobraziť informácie o TWTCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bitblocks address</source>
-        <translation>Poslať mince na bitblocks adresu</translation>
+        <source>Send coins to a TWTCoin address</source>
+        <translation>Poslať mince na TWTCoin adresu</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bitblocks</source>
-        <translation>Upraviť možnosti konfigurácie pre bitblocks</translation>
+        <source>Modify configuration options for TWTCoin</source>
+        <translation>Upraviť možnosti konfigurácie pre TWTCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-200"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bitblocks</source>
-        <translation>&amp;O bitblocks</translation>
+        <source>&amp;About TWTCoin</source>
+        <translation>&amp;O TWTCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bitblocks client</source>
-        <translation>bitblocks klient</translation>
+        <source>TWTCoin client</source>
+        <translation>TWTCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bitblocks network</source>
-        <translation><numerusform>%n aktívne spojenie s bitblocks sieťov</numerusform><numerusform>%n aktívnych spojení s bitblocks sieťov</numerusform><numerusform>%n aktívnych spojení s bitblocks sieťou</numerusform></translation>
+        <source>%n active connection(s) to TWTCoin network</source>
+        <translation><numerusform>%n aktívne spojenie s TWTCoin sieťov</numerusform><numerusform>%n aktívnych spojení s TWTCoin sieťov</numerusform><numerusform>%n aktívnych spojení s TWTCoin sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -658,8 +658,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bitblocks address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou bitblocks adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid TWTCoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou TWTCoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -718,8 +718,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bitblocks can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. bitblocks už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. TWTCoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. TWTCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1052,8 +1052,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bitblocks address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou bitblocks adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid TWTCoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou TWTCoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1071,8 +1071,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>bitblocks-Qt</source>
-        <translation>bitblocks-Qt</translation>
+        <source>TWTCoin-Qt</source>
+        <translation>TWTCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1144,13 +1144,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bitblocks after logging in to the system.</source>
-        <translation>Automaticky spustiť bitblocks po prihlásení sa do systému.</translation>
+        <source>Automatically start TWTCoin after logging in to the system.</source>
+        <translation>Automaticky spustiť TWTCoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bitblocks on system login</source>
-        <translation>&amp;Spustiť bitblocks pri prihlásení do systému</translation>
+        <source>&amp;Start TWTCoin on system login</source>
+        <translation>&amp;Spustiť TWTCoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1169,8 +1169,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bitblocks client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta bitblocks na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the TWTCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta TWTCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1179,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bitblocks network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti bitblocks cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the TWTCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti TWTCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1254,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bitblocks.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní bitblocks.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TWTCoin.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní TWTCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1269,8 +1269,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bitblocks addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť bitblocks adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show TWTCoin addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť TWTCoin adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1316,8 +1316,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bitblocks.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní bitblocks.</translation>
+        <source>This setting will take effect after restarting TWTCoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní TWTCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bitblocks network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou bitblocks po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWTCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou TWTCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1551,8 +1551,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bitblocks-Qt help message to get a list with possible bitblocks command-line options.</source>
-        <translation>Zobraziť bitblocks-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku bitblocks.</translation>
+        <source>Show the TWTCoin-Qt help message to get a list with possible TWTCoin command-line options.</source>
+        <translation>Zobraziť TWTCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku TWTCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1571,13 +1571,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>bitblocks - Debug window</source>
-        <translation>bitblocks - Ladiace okno</translation>
+        <source>TWTCoin - Debug window</source>
+        <translation>TWTCoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bitblocks Core</source>
-        <translation>Jadro bitblocks</translation>
+        <source>TWTCoin Core</source>
+        <translation>Jadro TWTCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1586,8 +1586,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bitblocks debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte bitblocks súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the TWTCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte TWTCoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1596,8 +1596,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bitblocks RPC console.</source>
-        <translation>Vitajte v konzole bitblocks RPC.</translation>
+        <source>Welcome to the TWTCoin RPC console.</source>
+        <translation>Vitajte v konzole TWTCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1755,8 +1755,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte bitblocks adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte TWTCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1855,8 +1855,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bitblocks address</source>
-        <translation>UPOZORNENIE: Neplatná bitblocks adresa</translation>
+        <source>WARNING: Invalid TWTCoin address</source>
+        <translation>UPOZORNENIE: Neplatná TWTCoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1929,8 +1929,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte bitblocks adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte TWTCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1990,8 +1990,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bitblocks address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto bitblocks adresu</translation>
+        <source>Sign the message to prove you own this TWTCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto TWTCoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2022,8 +2022,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bitblocks address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou bitblocks adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TWTCoin address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou TWTCoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte bitblocks adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte TWTCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2043,8 +2043,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bitblocks signature</source>
-        <translation>Zadajte bitblocks podpis</translation>
+        <source>Enter TWTCoin signature</source>
+        <translation>Zadajte TWTCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2614,8 +2614,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bitblocks version</source>
-        <translation>bitblocks verzia</translation>
+        <source>TWTCoin version</source>
+        <translation>TWTCoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2644,8 +2644,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bitblocks.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: bitblocks.conf)</translation>
+        <source>Specify configuration file (default: TWTCoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: TWTCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2799,8 +2799,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bitblocks will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny bitblocks nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TWTCoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny TWTCoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2989,24 +2989,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitblocksrpc
+rpcuser=TWTCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;TWTCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=bitblocksrpc
+rpcuser=TWTCoinrpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;TWTCoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3130,13 +3130,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bitblocks is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. bitblocks už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  TWTCoin is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. TWTCoin už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bitblocks</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu bitblocks</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TWTCoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu TWTCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bitblocks to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte bitblocks k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart TWTCoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte TWTCoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bitblocks is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. bitblocks je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. TWTCoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. TWTCoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>

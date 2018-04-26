@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bitblocks</source>
-        <translation>Über bitblocks</translation>
+        <source>About TWTCoin</source>
+        <translation>Über TWTCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bitblocks&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;bitblocks&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;TWTCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;TWTCoin&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bitblocks developers</source>
+Copyright © 2014 The TWTCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bitblocks addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Das sind Ihre bitblocks Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer sie bezahlt.</translation>
+        <source>These are your TWTCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Das sind Ihre TWTCoin Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer sie bezahlt.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,7 +78,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bitblocks address</source>
+        <source>Sign a message to prove you own a TWTCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -93,7 +93,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bitblocks address</source>
+        <source>Verify a message to ensure it was signed with a specified TWTCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -261,7 +261,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-58"/>
-        <source>bitblocks will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>TWTCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -375,7 +375,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bitblocks</source>
+        <source>Show information about TWTCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -425,12 +425,12 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bitblocks address</source>
+        <source>Send coins to a TWTCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bitblocks</source>
+        <source>Modify configuration options for TWTCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -470,7 +470,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-200"/>
-        <source>bitblocks</source>
+        <source>TWTCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -480,7 +480,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bitblocks</source>
+        <source>&amp;About TWTCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -537,12 +537,12 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bitblocks client</source>
+        <source>TWTCoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bitblocks network</source>
+        <source>%n active connection(s) to TWTCoin network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -656,7 +656,7 @@ Adresse: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bitblocks address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid TWTCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -716,7 +716,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bitblocks can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. TWTCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1036,8 +1036,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bitblocks address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige bitblocks Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid TWTCoin address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige TWTCoin Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1055,7 +1055,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>bitblocks-Qt</source>
+        <source>TWTCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1128,13 +1128,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bitblocks after logging in to the system.</source>
-        <translation>Automatisch bitblocks starten beim Einloggen in das System.</translation>
+        <source>Automatically start TWTCoin after logging in to the system.</source>
+        <translation>Automatisch TWTCoin starten beim Einloggen in das System.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bitblocks on system login</source>
-        <translation>&amp;Starte bitblocks bei Systemstart</translation>
+        <source>&amp;Start TWTCoin on system login</source>
+        <translation>&amp;Starte TWTCoin bei Systemstart</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1153,8 +1153,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bitblocks client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den bitblocks client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <source>Automatically open the TWTCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den TWTCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1163,7 +1163,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bitblocks network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the TWTCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1238,7 +1238,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bitblocks.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting TWTCoin.</source>
         <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1253,8 +1253,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bitblocks addresses in the transaction list or not.</source>
-        <translation>bitblocks Adressen in der Überweisung anzeigen oder nicht.</translation>
+        <source>Whether to show TWTCoin addresses in the transaction list or not.</source>
+        <translation>TWTCoin Adressen in der Überweisung anzeigen oder nicht.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1300,7 +1300,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bitblocks.</source>
+        <source>This setting will take effect after restarting TWTCoin.</source>
         <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1319,8 +1319,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bitblocks network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem bitblocks Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWTCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem TWTCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1535,7 +1535,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bitblocks-Qt help message to get a list with possible bitblocks command-line options.</source>
+        <source>Show the TWTCoin-Qt help message to get a list with possible TWTCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1555,13 +1555,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>bitblocks - Debug window</source>
-        <translation>bitblocks - Debug Fenster</translation>
+        <source>TWTCoin - Debug window</source>
+        <translation>TWTCoin - Debug Fenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bitblocks Core</source>
-        <translation>bitblocks Kern</translation>
+        <source>TWTCoin Core</source>
+        <translation>TWTCoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1570,7 +1570,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bitblocks debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the TWTCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1580,7 +1580,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bitblocks RPC console.</source>
+        <source>Welcome to the TWTCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1739,7 +1739,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1839,7 +1839,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bitblocks address</source>
+        <source>WARNING: Invalid TWTCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1913,7 +1913,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1974,8 +1974,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bitblocks address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser bitblocks Adresse bist.</translation>
+        <source>Sign the message to prove you own this TWTCoin address</source>
+        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser TWTCoin Adresse bist.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2006,7 +2006,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bitblocks address</source>
+        <source>Verify the message to ensure it was signed with the specified TWTCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2017,7 +2017,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2027,8 +2027,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bitblocks signature</source>
-        <translation>bitblocks Signatur eingeben</translation>
+        <source>Enter TWTCoin signature</source>
+        <translation>TWTCoin Signatur eingeben</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2598,7 +2598,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bitblocks version</source>
+        <source>TWTCoin version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2628,13 +2628,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bitblocks.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: bitblocks.conf)</translation>
+        <source>Specify configuration file (default: TWTCoin.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: TWTCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: twtcoind.pid)</source>
-        <translation>PID Datei angeben (Standard: bitblocks.pid)</translation>
+        <translation>PID Datei angeben (Standard: TWTCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2783,8 +2783,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bitblocks will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist bitblocks nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TWTCoin will not work properly.</source>
+        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist TWTCoin nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2972,13 +2972,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitblocksrpc
+rpcuser=TWTCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;TWTCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3104,13 +3104,13 @@ for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bitblocks is probably already running.</source>
-        <translation>Kann das Verzeichniss nicht einbinden %s. bitblocks Brieftasche läuft wahrscheinlich bereits.</translation>
+        <source>Cannot obtain a lock on data directory %s.  TWTCoin is probably already running.</source>
+        <translation>Kann das Verzeichniss nicht einbinden %s. TWTCoin Brieftasche läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3144,13 +3144,13 @@ for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bitblocks</source>
-        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der bitblocks Brieftasche.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TWTCoin</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der TWTCoin Brieftasche.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bitblocks to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden. Starte die bitblocks Brieftasche neu zum komplettieren.</translation>
+        <source>Wallet needed to be rewritten: restart TWTCoin to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden. Starte die TWTCoin Brieftasche neu zum komplettieren.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3219,7 +3219,7 @@ for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bitblocks is probably already running.</source>
+        <source>Unable to bind to %s on this computer. TWTCoin is probably already running.</source>
         <translation>Fehler beim anbinden %s auf diesem Computer. BlaclCoin Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>

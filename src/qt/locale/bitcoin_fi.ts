@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bitblocks</source>
-        <translation>Tietoa bitblocksista</translation>
+        <source>About TWTCoin</source>
+        <translation>Tietoa TWTCoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bitblocks&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;bitblocks&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;TWTCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;TWTCoin&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bitblocks developers</source>
+Copyright © 2014 The TWTCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -64,8 +64,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bitblocks addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat bitblocks-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your TWTCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat TWTCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -79,8 +79,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bitblocks address</source>
-        <translation>Allekirjoita viesti osoittaaksesi bitblocks-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a TWTCoin address</source>
+        <translation>Allekirjoita viesti osoittaaksesi TWTCoin-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bitblocks address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen bitblocks-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified TWTCoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen TWTCoin-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -262,8 +262,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-        <source>bitblocks will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>bitblocks-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>TWTCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>TWTCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bitblocks</source>
-        <translation>Näytä tietoja bitblocksista</translation>
+        <source>Show information about TWTCoin</source>
+        <translation>Näytä tietoja TWTCoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -426,13 +426,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bitblocks address</source>
-        <translation>Lähetä kolikkoja bitblocks osoitteeseen</translation>
+        <source>Send coins to a TWTCoin address</source>
+        <translation>Lähetä kolikkoja TWTCoin osoitteeseen</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bitblocks</source>
-        <translation>Mukauta bitblocksin konfigurointiasetuksia</translation>
+        <source>Modify configuration options for TWTCoin</source>
+        <translation>Mukauta TWTCoinin konfigurointiasetuksia</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -471,8 +471,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-200"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -481,8 +481,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bitblocks</source>
-        <translation>&amp;Tietoa bitblocksista</translation>
+        <source>&amp;About TWTCoin</source>
+        <translation>&amp;Tietoa TWTCoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -538,13 +538,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bitblocks client</source>
-        <translation>bitblocks-asiakas</translation>
+        <source>TWTCoin client</source>
+        <translation>TWTCoin-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bitblocks network</source>
-        <translation><numerusform>%n aktiivinen yhteys bitblocks-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä bitblocks-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to TWTCoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys TWTCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä TWTCoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +657,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bitblocks address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä bitblocks-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid TWTCoin address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä TWTCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +717,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bitblocks can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. bitblocks-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
+        <source>A fatal error occurred. TWTCoin can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe kohdattu. TWTCoin-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
 </context>
 <context>
@@ -1051,8 +1051,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bitblocks address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty bitblocks-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid TWTCoin address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty TWTCoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1070,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>bitblocks-Qt</source>
-        <translation>bitblocks-Qt</translation>
+        <source>TWTCoin-Qt</source>
+        <translation>TWTCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1143,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bitblocks after logging in to the system.</source>
-        <translation>Käynnistä bitblocks-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start TWTCoin after logging in to the system.</source>
+        <translation>Käynnistä TWTCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bitblocks on system login</source>
-        <translation>%Käynnistä bitblocks-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start TWTCoin on system login</source>
+        <translation>%Käynnistä TWTCoin-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1168,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bitblocks client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa bitblocks-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the TWTCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa TWTCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bitblocks network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä bitblocks-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
+        <source>Connect to the TWTCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä TWTCoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bitblocks.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta bitblocks-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TWTCoin.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta TWTCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1268,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bitblocks addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota bitblocks-osoitteet rahansiirtolistassa.</translation>
+        <source>Whether to show TWTCoin addresses in the transaction list or not.</source>
+        <translation>Näytä tai piilota TWTCoin-osoitteet rahansiirtolistassa.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1315,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bitblocks.</source>
-        <translation>Tämä asetus tulee voimaan vasta bitblocks-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting TWTCoin.</source>
+        <translation>Tämä asetus tulee voimaan vasta TWTCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bitblocks network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti bitblocks-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWTCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti TWTCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1550,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bitblocks-Qt help message to get a list with possible bitblocks command-line options.</source>
-        <translation>Näytä bitblocks-Qt:n avustusohje saadaksesi listan käytettävistä bitblocksin komentokehotteen määritteistä.</translation>
+        <source>Show the TWTCoin-Qt help message to get a list with possible TWTCoin command-line options.</source>
+        <translation>Näytä TWTCoin-Qt:n avustusohje saadaksesi listan käytettävistä TWTCoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1570,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>bitblocks - Debug window</source>
-        <translation>bitblocks - Debug-ikkuna</translation>
+        <source>TWTCoin - Debug window</source>
+        <translation>TWTCoin - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bitblocks Core</source>
-        <translation>bitblocksin ydin</translation>
+        <source>TWTCoin Core</source>
+        <translation>TWTCoinin ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1585,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bitblocks debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa bitblocks-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the TWTCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa TWTCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1595,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bitblocks RPC console.</source>
-        <translation>Tervetuloa bitblocksin RPC-konsoliin.</translation>
+        <source>Welcome to the TWTCoin RPC console.</source>
+        <translation>Tervetuloa TWTCoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1754,8 +1754,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä bitblocks-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä TWTCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1854,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bitblocks address</source>
-        <translation>VAROITUS: Epäkelpo bitblocks-osoite</translation>
+        <source>WARNING: Invalid TWTCoin address</source>
+        <translation>VAROITUS: Epäkelpo TWTCoin-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1928,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä bitblocks-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä TWTCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bitblocks address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän bitblocks-osoitteen</translation>
+        <source>Sign the message to prove you own this TWTCoin address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän TWTCoin-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bitblocks address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä bitblocks-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified TWTCoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä TWTCoin-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä bitblocks-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä TWTCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2042,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bitblocks signature</source>
-        <translation>Syötä bitblocks-allekirjoitus</translation>
+        <source>Enter TWTCoin signature</source>
+        <translation>Syötä TWTCoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2613,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bitblocks version</source>
-        <translation>bitblocksin versio</translation>
+        <source>TWTCoin version</source>
+        <translation>TWTCoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,13 +2643,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bitblocks.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: bitblocks.conf)</translation>
+        <source>Specify configuration file (default: TWTCoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: TWTCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: twtcoind.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: bitblocks.pid)</translation>
+        <translation>Määritä prosessitiedosto (oletus: TWTCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2798,8 +2798,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bitblocks will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, bitblocks ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TWTCoin will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, TWTCoin ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2988,23 +2988,23 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitblocksrpc
+rpcuser=TWTCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;TWTCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=bitblocksrpc
+rpcuser=TWTCoinrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;TWTCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3129,13 +3129,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bitblocks is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. bitblocks-asiakasohjelma on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s.  TWTCoin is probably already running.</source>
+        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. TWTCoin-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3169,13 +3169,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bitblocks</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version bitblocks-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TWTCoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version TWTCoin-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bitblocks to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä bitblocks-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart TWTCoin to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä TWTCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3244,8 +3244,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bitblocks is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. bitblocks-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. TWTCoin is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. TWTCoin-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-97"/>

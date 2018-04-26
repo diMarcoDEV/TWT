@@ -2114,9 +2114,6 @@ bool CBlock::AcceptBlock()
     CBlockIndex* pindexPrev = (*mi).second;
     int nHeight = pindexPrev->nHeight+1;
 
-    if (IsProofOfWork() && nHeight > LAST_POW_BLOCK_V1 && nHeight < POW_RE_ENABLE)
-        return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));
-
     // Check proof-of-work or proof-of-stake
     if (nBits != GetNextTargetRequired(pindexPrev, IsProofOfStake()))
         return DoS(100, error("AcceptBlock() : incorrect %s", IsProofOfWork() ? "proof-of-work" : "proof-of-stake"));

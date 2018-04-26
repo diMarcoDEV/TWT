@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bitblocks</source>
-        <translation>O bitblocks</translation>
+        <source>About TWTCoin</source>
+        <translation>O TWTCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bitblocks&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;bitblocks&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;TWTCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;TWTCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bitblocks developers</source>
+Copyright © 2014 The TWTCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bitblocks addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši bitblocks naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your TWTCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši TWTCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +78,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bitblocks address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva bitblocks naslova</translation>
+        <source>Sign a message to prove you own a TWTCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva TWTCoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bitblocks address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim bitblocks naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified TWTCoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim TWTCoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>bitblocks will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>bitblocks se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>TWTCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>TWTCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bitblocks</source>
-        <translation>Pokaži informacije o bitblocks</translation>
+        <source>Show information about TWTCoin</source>
+        <translation>Pokaži informacije o TWTCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +425,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bitblocks address</source>
-        <translation>Pošlji kovance na bitblocks naslov</translation>
+        <source>Send coins to a TWTCoin address</source>
+        <translation>Pošlji kovance na TWTCoin naslov</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bitblocks</source>
-        <translation>Spremeni nastavitve za bitblocks</translation>
+        <source>Modify configuration options for TWTCoin</source>
+        <translation>Spremeni nastavitve za TWTCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +470,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-200"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bitblocks</source>
-        <translation>&amp;O bitblocks</translation>
+        <source>&amp;About TWTCoin</source>
+        <translation>&amp;O TWTCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bitblocks client</source>
-        <translation>bitblocks program</translation>
+        <source>TWTCoin client</source>
+        <translation>TWTCoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bitblocks network</source>
-        <translation><numerusform>%n aktivne povezave na bitblocks omrežje</numerusform><numerusform>%n aktivnih povezav na bitblocks omrežje</numerusform><numerusform>%n aktivnih povezav na bitblocks omrežje</numerusform><numerusform>%n aktivnih povezav na bitblocks omrežje</numerusform></translation>
+        <source>%n active connection(s) to TWTCoin network</source>
+        <translation><numerusform>%n aktivne povezave na TWTCoin omrežje</numerusform><numerusform>%n aktivnih povezav na TWTCoin omrežje</numerusform><numerusform>%n aktivnih povezav na TWTCoin omrežje</numerusform><numerusform>%n aktivnih povezav na TWTCoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +657,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bitblocks address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega bitblocks naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid TWTCoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega TWTCoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +717,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bitblocks can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program bitblocks se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. TWTCoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program TWTCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1051,8 +1051,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bitblocks address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven bitblocks naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid TWTCoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven TWTCoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1070,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>bitblocks-Qt</source>
-        <translation>bitblocks-Qt</translation>
+        <source>TWTCoin-Qt</source>
+        <translation>TWTCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1143,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bitblocks after logging in to the system.</source>
-        <translation>Avtomatično zaženi bitblocks ob zagonu sistema.</translation>
+        <source>Automatically start TWTCoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi TWTCoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bitblocks on system login</source>
-        <translation>&amp;Zaženi bitblocks ob prijavi v sistem</translation>
+        <source>&amp;Start TWTCoin on system login</source>
+        <translation>&amp;Zaženi TWTCoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1168,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bitblocks client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za bitblocks program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the TWTCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za TWTCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bitblocks network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na bitblocks omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the TWTCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na TWTCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bitblocks.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu bitblocks aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TWTCoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu TWTCoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1268,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bitblocks addresses in the transaction list or not.</source>
-        <translation>Izbira prikaza bitblocks naslovov v seznamu transakcij.</translation>
+        <source>Whether to show TWTCoin addresses in the transaction list or not.</source>
+        <translation>Izbira prikaza TWTCoin naslovov v seznamu transakcij.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1315,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bitblocks.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu bitblocks aplikacije</translation>
+        <source>This setting will take effect after restarting TWTCoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu TWTCoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bitblocks network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z bitblocks omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWTCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z TWTCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1550,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bitblocks-Qt help message to get a list with possible bitblocks command-line options.</source>
-        <translation>Prikaži bitblocks-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice bitblocks aplikacije</translation>
+        <source>Show the TWTCoin-Qt help message to get a list with possible TWTCoin command-line options.</source>
+        <translation>Prikaži TWTCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice TWTCoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1570,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>bitblocks - Debug window</source>
-        <translation>bitblocks - okno za odpravljanje napak</translation>
+        <source>TWTCoin - Debug window</source>
+        <translation>TWTCoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bitblocks Core</source>
-        <translation>bitblocks jedro</translation>
+        <source>TWTCoin Core</source>
+        <translation>TWTCoin jedro</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1585,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bitblocks debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri bitblocks datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the TWTCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri TWTCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1595,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bitblocks RPC console.</source>
-        <translation>Dobrodošli v bitblocks RPC konzoli.</translation>
+        <source>Welcome to the TWTCoin RPC console.</source>
+        <translation>Dobrodošli v TWTCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1754,8 +1754,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite bitblocks naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite TWTCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1854,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bitblocks address</source>
-        <translation>OPOZORILO: Neveljaven bitblocks naslov</translation>
+        <source>WARNING: Invalid TWTCoin address</source>
+        <translation>OPOZORILO: Neveljaven TWTCoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1928,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite bitblocks naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite TWTCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bitblocks address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva bitblocks naslova</translation>
+        <source>Sign the message to prove you own this TWTCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva TWTCoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bitblocks address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim bitblocks naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified TWTCoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim TWTCoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite bitblocks naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a TWTCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite TWTCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2042,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bitblocks signature</source>
-        <translation>Vnesite bitblocks podpis</translation>
+        <source>Enter TWTCoin signature</source>
+        <translation>Vnesite TWTCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2613,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bitblocks version</source>
-        <translation>bitblocks različica</translation>
+        <source>TWTCoin version</source>
+        <translation>TWTCoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,13 +2643,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bitblocks.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: bitblocks.conf)</translation>
+        <source>Specify configuration file (default: TWTCoin.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: TWTCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: twtcoind.pid)</source>
-        <translation>Določi pid datoteko (privzeto: bitblocks.pid)</translation>
+        <translation>Določi pid datoteko (privzeto: TWTCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2798,8 +2798,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bitblocks will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno bitblocks ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TWTCoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno TWTCoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2988,24 +2988,24 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitblocksrpc
+rpcuser=TWTCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bitblocks Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;TWTCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, nastaviti morate rpcgeslo v konfiguracijski datoteki: 
  %s
 Priporočeno je, da uporabite naslednje naključno geslo:
-rpcuser=bitblocksrpc
+rpcuser=TWTCoinrpc
 rpcpassword=%s
 (tega gesla si vam ni potrebno zapomniti)
 Uporabniško ime in geslo NE SMETA biti ista. 
 Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke. 
 Prav tako je priporočeno, da nastavite alernotify, tkako da vas opozori na probleme;
-na primer: alertnotify=echo %%s | mail -s &quot;bitblocks Alarm&quot; admin@foo.com
+na primer: alertnotify=echo %%s | mail -s &quot;TWTCoin Alarm&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3130,13 +3130,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;bitblocks Alarm&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bitblocks is probably already running.</source>
-        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija bitblocks je verjetno že zagnana.</translation>
+        <source>Cannot obtain a lock on data directory %s.  TWTCoin is probably already running.</source>
+        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija TWTCoin je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bitblocks</source>
-        <translation>bitblocks</translation>
+        <source>TWTCoin</source>
+        <translation>TWTCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;bitblocks Alarm&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bitblocks</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo bitblocks</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TWTCoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo TWTCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bitblocks to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite bitblocks za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart TWTCoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite TWTCoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ na primer: alertnotify=echo %%s | mail -s &quot;bitblocks Alarm&quot; admin@foo.
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bitblocks is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča bitblocks aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. TWTCoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča TWTCoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-97"/>
