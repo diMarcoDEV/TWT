@@ -3107,7 +3107,7 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;bitblocks Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Acceptable ciphers (default: TLSv1+BBK:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
+        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
         <translation>Acceptable ciphers (default: TLSv1 + HØJ:! SSLv2: aNULL: eNULL: AH: 3DES: @ styrke)</translation>
     </message>
     <message>
