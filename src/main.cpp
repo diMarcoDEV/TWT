@@ -2511,9 +2511,6 @@ bool LoadBlockIndex(bool fAllowNew)
 
         // MainNet:
 
-
-
-
         const char* pszTimestamp = "TWTCoin - Time Will Tell";
         CTransaction txNew;
         txNew.nTime = 1515168297;
@@ -2526,7 +2523,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1515168297;
+        block.nTime    = 1524757951;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = !fTestNet ? 381089 : 381089;
         
