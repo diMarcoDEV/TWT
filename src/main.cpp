@@ -40,14 +40,12 @@ CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // "standard" scrypt target limit
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
-unsigned int nTargetSpacing = 60 * 2; // 2 minute
-unsigned int nTargetSpacing_v2 = 60 * 1; //1 minute
-unsigned int nTargetSpacing_v3 = 15; // 15s
+unsigned int nTargetSpacing = 60 * 1.5; // 1,5 minute
 unsigned int nStakeMinAge = 60 * 60 * 24; //24h
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 6;
+int nCoinbaseMaturity = 64;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -1003,99 +1001,28 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
 
-          int64_t nSubsidy = 0.1;
+    int64_t nSubsidy = 50 * COIN;
 
-            if(nBestHeight == 0)
-            {
-            nSubsidy = 15000000 * COIN; // 3% for developers - Presale - Bounty - Market
-			
-			}
-            else if(nBestHeight <= 3200) // Pre-sale time
-            {
-            nSubsidy = 0 * COIN;
-            }
-			
-		    else if(nBestHeight <= 100000)
-            {
-            nSubsidy = 50 * COIN;
-            }
-			
-			 else if(nBestHeight <= 200000)
-            {
-            nSubsidy = 40 * COIN;
-            }
-			
-			 else if(nBestHeight <= 300000)
-            {
-            nSubsidy = 30 * COIN;
-            }
-			
-			else if(nBestHeight <= 400000)
-            {
-            nSubsidy = 25 * COIN;
-            }
-			
-			else if(nBestHeight <= 500000)
-            {
-            nSubsidy = 20 * COIN;
-            }
-			
-			else if(nBestHeight <= 600000)
-            {
-            nSubsidy = 15 * COIN;
-            }
-			
-			else if(nBestHeight <= 700000)
-            {
-            nSubsidy = 10 * COIN;
-            }
-			
-			else if(nBestHeight <= 800000)
-            {
-            nSubsidy = 9 * COIN;
-            }
-			
-			else if(nBestHeight <= 900000)
-            {
-            nSubsidy = 8 * COIN;
-            }
-			
-			else if(nBestHeight <= 1000000)
-            {
-            nSubsidy = 7 * COIN;
-            }
-			
-			else if(nBestHeight <= 1500000)
-            {
-            nSubsidy = 6 * COIN;
-            }
-			
-			else if(nBestHeight <= 2000000)
-            {
-            nSubsidy = 5 * COIN;
-            }
-			
-			else if(nBestHeight <= 3000000)
-            {
-            nSubsidy = 3 * COIN;
-            }
-			
-			else if(nBestHeight <= 4000000)
-            {
-            nSubsidy = 1 * COIN;
-            }
-			
-			else if(nBestHeight <= 5000000)
-            {
-            nSubsidy = 0.5 * COIN;
-            }
-			
-			else
-            {
-            nSubsidy = 0.1 * COIN;
-            }
-
-
+    if(nBestHeight == 0)
+    {
+        nSubsidy = 640000 * COIN;  // 0.1% for developing/bounty/airdrop
+    }
+    else if(nBestHeight <= 5000) //pre-sale time
+    {
+        nSubsidy = 0 * COIN;
+    }
+    else if(nBestHeight <= 100000)
+    {
+        nSubsidy = 100 * COIN;
+    }
+    else if(nBestHeight <= 200000)
+    {
+        nSubsidy = 75 * COIN;
+    }
+    else
+    {
+        nSubsidy = 50 * COIN;
+    }
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%" PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
@@ -1108,53 +1035,14 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
 {
     int64_t nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 
-                 if(nBestHeight <= 20000) 
-            {
-            	 nSubsidy >>= nSubsidy /1000000;  //no substantial pos reward until block 20k
-            }
-				 else if(nBestHeight <= 100000)
-				
-			 {
-				 nSubsidy = nSubsidy * 5 ;  //500%
-			 }
-			 
-			  else if(nBestHeight <= 200000)
-				
-			 {
-				 nSubsidy = nSubsidy * 2.5 ;  //250%
-			 }
-			 
-			 
-			   else if(nBestHeight <= 300000)
-				
-			 {
-				 nSubsidy = nSubsidy * 1.25 ;  //125%
-			 }
-			 
-			 
-			   else if(nBestHeight <= 400000)
-				
-			 {
-				 nSubsidy = nSubsidy * 0.6 ;  //60%
-			 }
-			 
-			    else if(nBestHeight <= 500000)
-				
-			 {
-				 nSubsidy = nSubsidy * 0.3 ;  //30%
-			 }
-			 
-			 
-			    else if(nBestHeight <= 1000000)
-				
-			 {
-				 nSubsidy = nSubsidy * 0.1 ;  //10%
-			 }
-			 
-			   else
-			{
-			 nSubsidy = nSubsidy * 0.01 ;  //1%
-			}
+    if(nBestHeight <= 5000)
+    {
+        nSubsidy >>= nSubsidy / 1000000;  //no substantial pos reward until block 25k
+    }
+    else
+    {
+        nSubsidy = nSubsidy * 0.25 ;  //25%
+    }
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfStakeReward(): create=%s nCoinAge=%" PRId64"\n", FormatMoney(nSubsidy).c_str(), nCoinAge);
@@ -1162,10 +1050,7 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
     return nSubsidy + nFees;
 }
 
-static const int64_t nTargetTimespan_v1 = 16 * 60;  // 16 mins
-static const int64_t nTargetTimespan_v2 = 60 * 60;  // 60 mins
-
-unsigned int nTargetTimespan = nTargetTimespan_v1;
+unsigned int nTargetTimespan = 15 * 60;  // 15 mins, after every 10 blocks
 
 //
 // maximum nBits value could possible be required nTime after
@@ -1213,16 +1098,21 @@ const CBlockIndex* GetLastBlockIndex(const CBlockIndex* pindex, bool fProofOfSta
     return pindex;
 }
 
-static unsigned int GetNextTargetRequiredV1(const CBlockIndex* pindexLast, bool fProofOfStake)
+unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
     CBigNum bnTargetLimit = fProofOfStake ? bnProofOfStakeLimit : bnProofOfWorkLimit;
 
     if (pindexLast == NULL)
         return bnTargetLimit.GetCompact(); // genesis block
 
+    // find the previous 2 blocks of the requested type (either POS or POW)
     const CBlockIndex* pindexPrev = GetLastBlockIndex(pindexLast, fProofOfStake);
+
+    // Genesis block,  or first POS block not yet mined
     if (pindexPrev->pprev == NULL)
-        return bnTargetLimit.GetCompact(); // first block
+        return bnTargetLimit.GetCompact();
+
+    // is there another block of the correct type prior to pindexPrev?
     const CBlockIndex* pindexPrevPrev = GetLastBlockIndex(pindexPrev->pprev, fProofOfStake);
     if (pindexPrevPrev->pprev == NULL)
         return bnTargetLimit.GetCompact(); // second block
@@ -1241,70 +1131,6 @@ static unsigned int GetNextTargetRequiredV1(const CBlockIndex* pindexLast, bool 
         bnNew = bnTargetLimit;
 
     return bnNew.GetCompact();
-}
-
-static unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool fProofOfStake)
-{
-    if (pindexBest->nHeight+1 <= 39999)
-    {
-        nTargetSpacing = nTargetSpacing;
-    }
-    else if  (pindexBest->nHeight+1 <=149999)
-    {
-        nTargetSpacing = nTargetSpacing_v2;
-    }
-    else if  (pindexBest->nHeight+1 >=150000)
-    {
-        nTargetSpacing = nTargetSpacing_v3;
-    }
-
-
-
-    if (pindexBest->nHeight+1 >= 40000)
-    {
-        nTargetTimespan = nTargetTimespan_v2;
-    }
-    else
-    {
-        nTargetTimespan = nTargetTimespan_v1;
-    }	
-	
-    CBigNum bnTargetLimit = fProofOfStake ? bnProofOfStakeLimit : bnProofOfWorkLimit;
-
-    if (pindexLast == NULL)
-        return bnTargetLimit.GetCompact(); // genesis block
-
-    const CBlockIndex* pindexPrev = GetLastBlockIndex(pindexLast, fProofOfStake);
-    if (pindexPrev->pprev == NULL)
-        return bnTargetLimit.GetCompact(); // first block
-    const CBlockIndex* pindexPrevPrev = GetLastBlockIndex(pindexPrev->pprev, fProofOfStake);
-    if (pindexPrevPrev->pprev == NULL)
-        return bnTargetLimit.GetCompact(); // second block
-
-    int64_t nActualSpacing = pindexPrev->GetBlockTime() - pindexPrevPrev->GetBlockTime();
-    if (nActualSpacing < 0)
-        nActualSpacing = nTargetSpacing;
-
-    // ppcoin: target change every block
-    // ppcoin: retarget with exponential moving toward target spacing
-    CBigNum bnNew;
-    bnNew.SetCompact(pindexPrev->nBits);
-    int64_t nInterval = nTargetTimespan / nTargetSpacing;
-    bnNew *= ((nInterval - 1) * nTargetSpacing + nActualSpacing + nActualSpacing);
-    bnNew /= ((nInterval + 1) * nTargetSpacing);
-
-    if (bnNew <= 0 || bnNew > bnTargetLimit)
-        bnNew = bnTargetLimit;
-
-    return bnNew.GetCompact();
-}
-
-unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake)
-{
-    if (pindexLast->nHeight < 10000)
-        return GetNextTargetRequiredV1(pindexLast, fProofOfStake);
-    else
-        return GetNextTargetRequiredV2(pindexLast, fProofOfStake);
 }
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits)
