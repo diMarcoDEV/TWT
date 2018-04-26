@@ -955,7 +955,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "bitblocks";
+    const char* pszModule = "twtcoin";
 #endif
     if (pex)
         return strprintf(
@@ -985,13 +985,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\bitblocks
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\bitblocks
-    // Mac: ~/Library/Application Support/bitblocks
-    // Unix: ~/.bitblocks
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\twtcoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\twtcoin
+    // Mac: ~/Library/Application Support/twtcoin
+    // Unix: ~/.twtcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "bitblocks";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "twtcoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1003,10 +1003,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "bitblocks";
+    return pathRet / "twtcoin";
 #else
     // Unix
-    return pathRet / ".bitblocks";
+    return pathRet / ".twtcoin";
 #endif
 #endif
 }
@@ -1048,7 +1048,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "bitblocks.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "twtcoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1209,10 +1209,10 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong bitblocks will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong twtcoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("bitblocks"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("twtcoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }

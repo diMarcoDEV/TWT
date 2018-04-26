@@ -526,7 +526,7 @@ void StakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("bitblocks-miner");
+    RenameThread("twtcoin-miner");
 
     bool fTryToSync = true;
 

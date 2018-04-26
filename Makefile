@@ -337,7 +337,7 @@ clean: release-clean debug-clean  FORCE
 	-$(DEL_FILE) clean
 distclean: release-distclean debug-distclean  FORCE
 	-$(DEL_FILE) Makefile
-	-$(DEL_FILE) /mnt/TWT/bitblocks-qt_plugin_import.cpp .qmake.stash
+	-$(DEL_FILE) /mnt/TWT/twtcoin-qt_plugin_import.cpp .qmake.stash
 
 /mnt/TWT/src/leveldb/libleveldb.a: FORCE
 	cd /mnt/TWT/src/leveldb && CC=i686-w64-mingw32.static-gcc CXX=i686-w64-mingw32.static-g++ TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) OPT="-fno-keep-inline-dllexport -pipe -O2" libleveldb.a libmemenv.a && i686-w64-mingw32.static-ranlib /mnt/TWT/src/leveldb/libleveldb.a && i686-w64-mingw32.static-ranlib /mnt/TWT/src/leveldb/libmemenv.a
